@@ -1,0 +1,1588 @@
+@font-face {
+    font-family: LeagueSpartan;
+    src: url("http://localhost/versea/wp-content/themes/neve/font/LeagueSpartan/LeagueSpartanBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NeueMontrealLight;
+    src: url("http://localhost/versea/wp-content/themes/neve/font/NeueMontreal/NeueMontreal-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NeueMontrealBold;
+    src: url("http://localhost/versea/wp-content/themes/neve/font/NeueMontreal/NeueMontreal-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: InterThin;
+    src: url("http://localhost/versea/wp-content/themes/neve/font/inter/Inter-Thin-BETA.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: InterSemiBold;
+    src: url("http://localhost/versea/wp-content/themes/neve/font/inter/Inter-SemiBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: InterBold;
+    src: url("http://localhost/versea/wp-content/themes/neve/font/inter/Inter-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: InterRegular;
+    src: url("http://localhost/versea/wp-content/themes/neve/font/inter/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: AileronRegular;
+    src: url("http://localhost/versea/wp-content/themes/neve/font/aileron/Aileron-Regular.otf") format("opentype");
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+/* header */
+header.header.fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+	box-shadow:0px 1px 2px rgba(0,0,0,0.5);
+}
+.builder-item--logo .site-logo {
+    padding: 0 !important;
+}
+/* menu */
+ul#nv-primary-navigation-main li{
+	padding:10px !important;
+}
+ul#nv-primary-navigation-main li a{
+    text-transform: uppercase;
+    font-size: 14px !important;
+    font-family: InterRegular !important;
+	color: #777 !important;
+    line-height: 20px !important;
+    padding: 10px 0px !important;
+}
+ul#nv-primary-navigation-main li ul li a {
+    text-transform: uppercase;
+    font-size: 14px !important;
+    font-family: InterRegular !important;
+	color: #777 !important;
+    line-height: 20px !important;
+    padding:0px !important;
+	text-align:left !important;
+	    justify-content: left !important;
+
+}
+.row .primary-menu-ul>.menu-item-has-children>.sub-menu {
+    left: 0 !important;
+    padding: 10px 10px !important;
+	right:auto !important;
+	box-shadow:0px 5px 5px 0px rgba(0,0,0,0.5);
+}
+ul#nv-primary-navigation-main li a::before {
+    background-image: url(img/favicon.png);
+    height: 0px;
+    width: 11px;
+    border: 0;
+    content: "";
+    position: absolute;
+    left: -16px;
+    background-size: cover;
+	
+}
+ul#nv-primary-navigation-main li:hover > a:before {
+    height: 11px;
+}
+ul#nv-primary-navigation-main li:hover > a {
+    color: rgb(85, 124, 194) !important;
+    border-bottom: 2px solid rgb(85, 124, 194);
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.footer .row {
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    display: flex;
+    width: fit-content;
+}
+
+.footer .row .item-footer {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footer .row .item-footer a {
+    color: #333333;
+}
+.footer .row .item-footer a:hover {
+    text-decoration: none;
+}
+
+/* End Footer */
+
+/* HOME carousel */
+.home-carousel {
+    min-height: 400px;
+}
+
+.home-carousel .carousel-inner {
+    height: 100%;
+}
+
+.home-carousel .carousel-inner .item {
+    height: 100%;
+}
+.home-carousel .carousel-inner .item.slider1 {
+    background: url("../image/slider1.png");
+}
+.home-carousel .carousel-inner .item img {
+    height: 100%;
+}
+
+.home-carousel .carousel-indicators li {
+    width: 15px !important;
+    height: 15px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(39, 39, 39);
+    border: none;
+}
+
+.home-carousel .carousel-indicators li.active {
+    background-color: rgb(85, 124, 194);
+}
+
+.home-carousel .carousel-caption {
+    text-shadow: unset;
+}
+
+.home-carousel .carousel-caption h1 {
+    font-family: LeagueSpartan;
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    color: rgb(43, 43, 52);
+    letter-spacing: 0.1em;
+}
+
+.home-carousel .carousel-caption h1 .span-name {
+    color: rgb(85, 124, 194);
+}
+
+.home-carousel .carousel-caption h5 {
+    font-family: InterSemiBold;
+    color: rgb(43, 43, 52);
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.home-carousel .carousel-caption h3 {
+    font-family: InterBold;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(43, 43, 52);
+}
+
+.home-carousel .carousel-caption h3 a {
+    font-family: InterBold;
+    letter-spacing: 0.1em;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgb(43, 43, 52);
+}
+.home-carousel .carousel-caption h3 a:hover, .home-carousel .carousel-caption h3 a:active {
+    text-decoration: none;
+}
+.home-carousel div.line {
+    width: 75px;
+    margin: auto;
+    background: rgb(43, 43, 52);
+    height: 2px;
+    margin-bottom: 30px;
+}
+/* End HOME carousel */
+
+/* Home Bottom Menu */
+.home-menu {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 275px;
+}
+
+.home-menu .row {
+    height: 100%;
+}
+
+.home-menu .item-menu {
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.home-menu .item-menu .child-item-menu {
+    height: 100%;
+}
+
+.home-menu .item-menu .child-item-menu .info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.home-menu .item-menu .child-item-menu .info .line {
+    width: 60%;
+    background: #fff;
+    height: 2px;
+    margin: auto;
+}
+
+.home-menu .item-menu .child-item-menu .info .text {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.home-menu .item-menu .child-item-menu.child-1 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../image/3.png");
+}
+
+.home-menu .item-menu .child-item-menu.child-2 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../image/4.png");
+}
+
+.home-menu .item-menu .child-item-menu.child-3 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../image/5.png");
+}
+
+.home-menu .item-menu .child-item-menu.child-4 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../image/medical_hemp_overlay.png");
+}
+
+.home-menu .item-menu .child-item-menu:hover {
+    background-image: none  !important;
+    background-color: rgb(85, 124, 194);
+}
+/* End Home Bottom Menu */
+
+.carousel-caption {
+    top: 35%;
+}
+.carousel-inner img.image-sp {
+    display: none;
+}
+
+/* Social media css */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px
+} 
+.fa:hover { 
+    opacity: 0.7;
+    color: white !important;
+} 
+.fa-facebook { 
+    background: rgb(5, 0, 78);
+    color: white !important; 
+} 
+.fa-twitter { 
+    background: rgb(5, 0, 78);
+    color: white !important; 
+} 
+.fa-google { 
+    background: rgb(5, 0, 78);
+    color: white !important; 
+} 
+.fa-linkedin { 
+    background: rgb(5, 0, 78);
+    color: white !important; 
+} 
+.fa-youtube { 
+    background: rgb(5, 0, 78);
+    color: white !important; 
+} 
+.fa-instagram { 
+    background: rgb(5, 0, 78);
+    color: white !important; 
+} 
+.fa-pinterest { 
+    background: rgb(5, 0, 78);
+    color: white !important; 
+} 
+.fa-snapchat-ghost { 
+    background: rgb(5, 0, 78);
+    color: white !important; 
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+} 
+.fa-skype { 
+    background: rgb(5, 0, 78);
+    color: white !important; 
+} 
+.fa-android { 
+    background: rgb(5, 0, 78);
+    color: white !important; 
+} 
+.fa-dribbble { 
+    background: rgb(5, 0, 78);
+    color: white !important; 
+} 
+.fa-vimeo { 
+    background: #45bbff; 
+    color: white!important; 
+} 
+.fa-tumblr { 
+    background: #2c4762; 
+    color: white !important; 
+} 
+.fa-vine { 
+    background: #00b489; 
+    color: white !important; 
+} 
+.fa-foursquare { 
+    background: #45bbff; 
+    color: white !important; 
+} 
+.fa-stumbleupon { 
+    background: #eb4924; 
+    color: white !important; 
+} 
+.fa-flickr { 
+    background: #f40083; 
+    color: white !important; 
+} 
+.fa-yahoo { 
+    background: #430297; 
+    color: white !important; 
+} 
+.fa-soundcloud { 
+    background: #ff5500; 
+    color: white !important; 
+} 
+.fa-reddit { 
+    background: #ff5700; 
+    color: white !important; 
+} 
+.fa-rss { 
+    background: #ff6600; 
+    color: white !important; 
+}
+.icon-contact:hover {
+    color: #000;
+}
+.icon-contact {
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+/* contact form */
+#contact_div input.wpcf7-form-control.wpcf7-submit.btn.btn-blue {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: #100f45;
+    color: #fff;
+}
+/* single blog and page */
+p.colord_content {
+    color: rgb(85, 124, 194);
+}
+.nv-single-page-wrap.col {
+    margin-top: 60px;
+}
+.nv-single-page-wrap h1,
+.nv-single-post-wrap h1 {
+    font-family: InterThin;
+    font-size: 30px;
+    color: rgb(43, 43, 52);
+}
+.nv-single-page-wrap h1 .span-name,
+.nv-single-post-wrap h1 .span-name {
+    font-family: InterSemiBold;
+    color: rgb(5, 0, 78);
+}
+.nv-single-page-wrap p,
+.nv-single-post-wrap p{
+	margin-bottom:5px !important;
+}
+.nv-single-page-wrap p,
+.nv-single-page-wrap ul li,
+.nv-single-post-wrap p,
+.nv-single-post-wrap ul li {
+    font-family:InterRegular;
+	font-size:16px;
+}
+.nv-single-page-wrap ul li,
+.nv-single-post-wrap ul li {
+	margin-top:0px !important; 
+}
+.container.single-post-container {
+    padding: 0 30px;
+}
+
+.nv-single-page-wrap .nv-content-wrap.entry-content h1.home-title,
+.nv-single-post-wrap .nv-content-wrap.entry-content h1.home-title {
+    font-family: InterSemiBold;
+    letter-spacing: 0.0em;
+    font-size: 30px;
+    color: rgb(5, 0, 78);
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+.nv-single-page-wrap .nv-content-wrap.entry-content h1.clinic-expand,
+.nv-single-post-wrap .nv-content-wrap.entry-content h1.clinic-expand
+{
+    font-family: InterBold;
+    letter-spacing: 0.0em;
+    font-size: 18px;
+    color: rgb(5, 0, 78);
+	margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*about css */
+.about .image img {
+    /*max-height: 350px;*/
+    max-width: 100%;
+}
+.about .image img.diagnostics {
+    max-height: 450px;
+    max-width: 100%;
+}
+.about .image img.clinic {
+    max-height: 330px;
+    max-width: 100%;
+}
+.about .image img.pharmaceuticals {
+    /*max-height: 290px;*/
+}
+.about .image img.practicesolution {
+    max-height: 400px;
+}
+.about .image img.medicalhemp {
+    /*max-height: 655px;*/
+}
+.about .image img.partnership {
+    /*max-height: 350px;*/
+}
+.about .info .title h1 {
+    font-family: InterThin;
+    font-size: 30px;
+    color: rgb(43, 43, 52);
+}
+
+.about .info .title h1 .span-name {
+    font-family: InterSemiBold;
+    color: rgb(5, 0, 78);
+}
+
+.about .info .text {
+    font-family: InterRegular;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.about .info .text.home-content.home-content-partnership {
+    /*margin-top: 60px;*/
+}
+.about .info .text.home-content {
+    font-family: InterRegular;
+}
+.about .info .text.home-content.diagnostics {
+    font-size: 16px;
+}
+.about .info .text.home-content.medicalhemp {
+    font-size: 16px;
+}
+.expand-content.home-content h2, .expand-content.home-content ul li, .expand-content.home-content ol li  {
+    font-family: InterRegular;
+    font-size: 16px;
+}
+.expand-content.home-content h2 {
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.expand-content.home-content ul {
+    padding-left: 75px;
+}
+.expand-content.home-content ul li {
+    margin-bottom: 10px;
+}
+/* .leadership .text{
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(255, 22, 22);
+    text-decoration: none;
+} */
+.lf.lf-about {
+    margin-top: 0px;
+}
+.lf {
+    padding-left: 50px;
+}
+.lf.clinic-development {
+    padding-right: 50px;
+}
+.lf-partnership {
+    /*margin-top: 50px;*/
+}
+.lf-pharma {
+    margin-top: 0px;
+    padding-right: 5px;
+}
+.rt-diagnostics {
+    margin-top: 20px;
+}
+.lf.lf-practicesolution {
+    margin-top: 40px;
+}
+.rt-medicalhemp {
+    margin-top: 0px;
+}
+.rt {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.lf.image {
+    text-align: right;
+    padding-right: 0;
+}
+.rt.image {
+    padding-left: 0;
+    padding-right: 30px;
+}
+.about .info .title h1.home-title {
+    font-family: InterSemiBold;
+    letter-spacing: 0.0em;
+    font-size: 30px;
+    color: rgb(5, 0, 78);
+}
+.about .info .title h1.clinic {
+    font-family: InterSemiBold;
+    letter-spacing: 0.0em;
+    font-size: 30px;
+    color: rgb(5, 0, 78);
+}
+.about .info .text.clinic {
+    font-family: InterThin;
+}
+.rt .title h1.home-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.expand-content .clinic-development {
+    padding: 0;
+}
+.clinic-development img {
+    width: 100%;
+}
+.expand-content {
+    margin-top: 10px;
+}
+.clinic-detail {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.clinic-detail .title h1.clinic-expand , .clinic-detail-column .title h1.clinic-expand {
+    font-family: InterBold;
+    letter-spacing: 0.0em;
+    font-size: 18px;
+    color: rgb(5, 0, 78);
+}
+.clinic-expand-detail {
+    /*padding-left: 20px;*/
+}
+.clinic-expand-detail p, .contact-form .sub-title, .contact-form p, .contact-form .sub-title, .contact-form p a {
+    margin: 0;
+    font-family: InterRegular;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+.clinic-expand-detail .sub-title {
+    margin-top: 10px;
+}
+.clinic-expand-detail.home-content ul li  {
+    font-family: InterRegular;
+    font-size: 16px;
+    margin-top: 5px;
+}
+img.clinic_timeline {
+    width: 100%;
+    max-width: 750px;
+    margin: 10px 0;
+}
+.clear-padding {
+    padding: 0;
+}
+.left-timeline {
+    background: rgb(46, 39, 148);
+    height: 335px;
+    color: #fff;
+}
+.left-timeline .vertical-middle h1 {
+    font-family: InterBold;
+    letter-spacing: 0.0em;
+    font-size: 32px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.left-timeline .vertical-middle .home-content.clinic {
+    margin-top: 30px;
+    font-family: InterRegular;
+    font-size: 22px;
+}
+.timeline-plan {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+.clinic-row .row {
+    margin-bottom: 30px;
+}
+.vertical-middle {
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.lf.tinctures, .lf.salve_stick, .lf.gel_capsules {
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.about .info .product-image {
+    text-align: center;
+}
+.about .info .product-image img {
+    max-height: 500px;
+}
+.about .info.gel_capsules .product-image img, .about .info.salve_stick .product-image img{
+    /*max-height: 280px;*/
+}
+.about .product-text {
+    padding-left: 10px;
+    font-family: InterRegular;
+    font-size: 16px;
+    color: rgb(43, 43, 52);
+    position: relative;
+}
+.about .info.gel_capsules .product-text {
+    padding-left: 10px;
+}
+.about .product-text {
+    font-size: 16px;
+}
+.about .product-text h1 {
+    font-family: InterSemiBold;
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(5, 0, 78);
+}
+.about .product-text ul {
+    padding-left: 0;
+}
+.about .product-text ul li {
+    list-style: none;
+}
+.about .image.product-label {
+    height: 300px;
+    position: relative;
+}
+.about .image.product-label img {
+    height: 300px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+.about .wrap-container, .product .row .wrap-container {
+    max-width: 1300px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.team-header img {
+    float: left;
+    width: 35px;
+}
+.manage-title {
+    font-family: InterSemiBold;
+    letter-spacing: 0.0em;
+    font-size: 30px;
+    color: rgb(5, 0, 78)
+}
+.management-team {
+    margin-bottom: 20px;
+}
+.block-management-team .management-team-header {
+    color: #fff;
+    height: 85px;
+    background: rgb(8, 0, 130);
+}
+.block-management-team .wrap-container, .contact-form .wrap-container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.block-management-team .management-team-header h3, .block-management-team .management-team-header h4 {
+    font-family: InterRegular;
+}
+.block-management-team .management-team-header h3 {
+    font-size: 18px;
+}
+.block-management-team .management-team-header h4 {
+    font-size: 16px;
+}
+.block-management-team .management-team-content .wrap-container .content {
+    padding: 15px 0;
+    line-height: 1.6;
+    font-family: InterRegular;
+    font-size: 13px;
+}
+.block-management-team .management-team-content .wrap-container .content p {
+    margin-bottom: 5px;
+}
+.contact-form .wrap-container {
+    /*max-width: 1000px;*/
+}
+a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
+    color: #100f45 !important;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+.contact-form {
+    margin-bottom: 20px;
+}
+.contact-form .sub-title {
+    margin-bottom: 20px;
+}
+.contact-form p, .contact-form p a {
+    color: rgb(43, 43, 52);
+}
+.contact-form .contact-detail {
+    text-align: left;
+}
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+.contact-form .form-group .form-control {
+    height: 35px;
+}
+.contact-form .btn {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background: #100f45;
+    color: #fff;
+}
+.contact-form .btn:hover {
+    background: #47467e;
+}
+.cus {
+    color: rgb(85, 124, 194);
+}
+.clinic-row {
+    margin-top: 110px;
+}
+.tablinks {
+    cursor: pointer;
+}
+.tablinks.active {
+    color: #ffd37c;
+}
+.about {
+    margin-bottom: 30px;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 0.5s;
+    animation: fadeEffect 0.5s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.expand-content .clinic-expand-detail ul, .expand-content .clinic-expand-detail ol {
+    padding-left: 30px;
+    margin-top: 10px;
+}
+.expand-content .clinic-expand-detail ol li{
+    margin-bottom: 10px;
+}
+.partnership-middle {
+    padding: 0;
+}
+.clinic-detail {
+    padding-right: 0px;
+}
+.partnership-middle .clinic-detail {
+    padding-right: 20px;
+}
+.management-team-tab.sp .management-team{
+	display:block;
+}
+.clinic-expand-detail.clinic-detail,.management-team-tab .wrap {
+    display: none;
+}
+.clinic-expand-detail.clinic-detail.active,.management-team-tab .wrap.active{
+    display: block;
+}
+ .block-management-team {
+    display: none;
+}
+/* Style the tab content */
+.tabcontent2 {
+    display: none;
+}
+.tab-management {
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 0px;
+}
+.tab-management .tab{
+	width:100%;
+	text-align:center;
+}
+.tab-management ul {
+    list-style: none;
+    display: inline-flex;
+}
+.tab-management ul li {
+    margin-left: 20px;
+}
+.tab-management ul li {
+    color: #777;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: InterRegular;
+	cursor:pointer;
+}
+.tab-management ul li .text .line {
+    height: 2px;
+    margin-top: 2px;
+    margin-left: -4px;
+    margin-right: -4px;
+    background-color: rgb(85, 124, 194);
+    opacity: 0;
+}
+.tab-management ul li.active .text .line{
+	opacity:1;
+}
+.tab-management ul li a:hover, .tab-management ul li a:active, .tab-management ul li a:focus {
+    text-decoration: none;
+}
+.tab-management ul li a:hover .text {
+    color: rgb(85, 124, 194) !important;
+    text-decoration: none;
+}
+.tab-management ul li a:active .text {
+     color: rgb(85, 124, 194) !important;
+     text-decoration: none;
+}
+.tab-management ul li a:focus .text {
+    color: rgb(85, 124, 194) !important;
+    text-decoration: none;
+}
+.tab-management ul li a:hover .text .line {
+    opacity: 1;
+}
+.tab li.active {
+    color: rgb(85, 124, 194);
+}
+.tab ul li.active a .text {
+    color: rgb(85, 124, 194) !important;
+}
+.tab ul li.active a .text .line{
+    opacity: 1;
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.animated {
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.management-team-tab div {
+    margin: 0;
+    padding: 0;
+}
+.management-team-tab img {
+    width: 100%;
+    visibility: hidden;
+}
+.management-team-tab .wrap {
+    position: relative;
+	padding:2px;
+}
+.management-team-tab figcaption {
+    top: 0;
+    position: absolute;
+    display: none;
+    background: #fff;
+    opacity: 0.9;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    text-align: left;
+    padding: 15px 30px;
+}
+.management-team-tab .wrap:hover {
+}
+
+
+/* Product */
+.product {
+    margin-bottom: 10px;
+}
+.product .title h1 {
+    font-family: InterThin;
+    font-size: 30px;
+    color: rgb(43, 43, 52);
+}
+
+.product .title h1 .span-name {
+    font-family: InterSemiBold;
+    color: rgb(5, 0, 78);
+}
+
+.product .item {
+    cursor: pointer;
+    height: 200px;
+}
+.product .row.item-1, .product .row.item-2 {
+    margin: 0 auto;
+    width: 1520px;
+    left: -125px;
+    position: relative;
+}
+.product .row.item-2 {
+    background-color: rgb(5, 0, 78);
+    color: #fff !important;
+}
+
+.product .item .item-image {
+    /*width: 100%;*/
+    height: 150px;
+}
+
+.product .item .item-left {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 22%;
+}
+
+.product .item .item-right {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0px;
+    width: 78%;
+}
+
+.product .item .item-name {
+    font-family: InterSemiBold;
+    font-size: 18px;
+    color: rgb(5, 0, 78);
+    padding-left: 0;
+}
+
+.product .row.item-2 .item .item-name {
+    color: #fff;
+}
+
+.product .item.item-2 .item-name {
+    color: #fff !important;
+}
+
+.product .item .item-info .item-info-text {
+    font-family: InterRegular;
+    font-size: 14px;
+}
+
+.product .item .item-info .item-info-blue {
+    display: flex;
+    position: absolute;
+    right: 84px;
+    bottom: 0;
+}
+
+.product .item .item-info .item-info-blue .blue-1 {
+    width: 40%;
+}
+
+.product .item .item-info .item-info-blue .blue-2 {
+    width: 100%;
+}
+
+.product .item .item-info .item-info-blue .blue-2 .text {
+    font-family: InterRegular;
+    font-size: 12px;
+    color: rgb(5, 0, 78);
+    text-align: right;
+    margin-top: 5px;
+}
+
+.product .row.item-2 .item .item-info .item-info-blue .blue-2 .text {
+    color: #fff !important;
+}
+.product .item .item-info {
+    position: relative;
+    padding-right: 70px;
+    padding-left: 0;
+}
+.product .item .item-info .arrow {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    width: 28px;
+}
+.product .item:hover .item-info .arrow {
+    display: block;
+}
+.product .wrap-container {
+    max-width: 1300px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.product .info .text {
+    /*margin-left: 40px;*/
+    font-family: InterRegular;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.product .info .text {
+    font-family: InterRegular;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#product-category {
+    font-family: InterRegular;
+    font-size: 16px;
+    padding-left: 0;
+}
+#product-category li {
+    list-style: none;
+}
+.product-category {
+    /*padding-left: 100px !important*/
+}
+.product-category .sub-title {
+    font-size: 18px;
+    font-family: InterSemiBold;
+}
+.product-line .product-line-title {
+    font-family: InterSemiBold;
+    font-size: 18px;
+    color: rgb(5, 0, 78);
+    
+}
+.lf {
+    padding-left: 50px;
+}
+.why-versea {
+    margin-bottom: 10px;
+    display: none;
+}
+.why-versea .clinic-development {
+    padding: 0;
+    text-align: center;
+}
+.why-versea img {
+    /*width: 100%;*/
+}
+.logo-new {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.product-line p, .product-line .small-title {
+    font-family: InterRegular;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.product-line .small-title h1 {
+    font-family: InterSemiBold;
+    color: rgb(5, 0, 78);
+    font-size: 16px;
+}
+.product-line .small-title ul {
+    font-family: InterRegular;
+    font-size: 16px;
+}
+.product-line .small-title p {
+    padding-left: 0;
+}
+
+
+#management_team .text, #medical_advisors .text {
+    text-align: left;
+    margin: 15px 0;
+}
+.tab-management {
+    font-family: InterRegular;
+}
+.management-team-tab .wrap figcaption h3 {
+    font-family: InterSemiBold;
+}
+.management-team-tab .wrap figcaption h4 {
+    font-size: 16px;
+    line-height: 1.4;
+}
+.management-team-tab .wrap figcaption p {
+    font-size: 12px;
+    line-height: 1.5;
+    cursor: default;
+}
+
+.management-team-tab .image-temp {
+    width: 100%;
+    background: rgba(5, 0, 78, 0.7);
+    /*background: #f3f3f366;*/
+    /*border-right: 1px solid #ccc;*/
+    /*border-bottom: 1px solid #ccc;*/
+}
+.management-team-tab .image-temp.last-column {
+    border-right: none;
+}
+.management-team-tab .image-temp.last-row {
+    border-bottom: none;
+}
+.management-team-tab .image-temp.even {
+    width: 100%;
+    background: #f3f3f366;
+}
+.text-temp.even {
+    background: #f3f3f366;
+    width: 100%;
+}
+.text-temp {
+    top: 0;
+    position: absolute;
+    height: 100%;
+    text-align: left;
+    padding: 15px 30px !important;
+}
+.text-temp {
+    text-align: left;
+}
+.text-temp h4 {
+    font-family: InterRegular;
+    font-size: 16px;
+    line-height: 1.4;
+	color:#fff;
+}
+.text-temp h3 {
+    font-family: InterSemiBold;
+	color:#fff;
+}
+.management-team-tab .wrap:hover .text-temp {
+    display: none;
+}
+.text-temp.odd {
+    color: #fff;
+}
+.expand-content.home-content ul {
+    /*list-style: none;*/
+}
+.navbar {
+    /*top: 0px;*/
+}
+.wrap-pad {
+    padding-left: 50px;
+}
+.management-team-tab {
+    padding-left: 50px;
+}
+.expand-content.home-content ul li {
+    margin-bottom: 5px;
+    overflow-wrap: break-word;
+}
+.logo-new {
+    text-align: center;
+    margin-top: 30px;
+}
+.clinic-detail .small-title h1.clinic-expand, .clinic-detail-column .small-title h1.clinic-expand {
+    font-size: 16px;
+}
+.about .info .text.home-content p, .clinic-expand-detail p {
+    margin-bottom: 5px;
+}
+.about .product-text h1 {
+    float: left;
+}
+.header-title {
+    display: inline-block;
+    width: 100%;
+}
+.header-title a {
+    float: right;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-family: InterRegular;
+}
+.header-title a i {
+    width: auto;
+    margin: 0;
+}
+.header-title a i:hover {
+    color: rgb(85, 124, 194) !important;
+}
+.nv-single-page-wrap.col .product-line-title {
+    font-family: InterSemiBold;
+    font-size: 18px;
+    color: rgb(5, 0, 78);
+    
+}
+@media only screen and (min-width: 768px) {
+    .management-team-tab .wrap:hover figcaption {
+        display: block;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .lf {
+    padding-left: 20px;
+    }
+    .about .wrap-container, .product .row .wrap-container {
+    width: 100%;
+    }
+    .clinic-detail {
+    padding-left: 20px;
+    }
+    h1 {
+    margin-top: 10px;
+    }
+    .wrap-pad {
+    padding-left: 20px;
+    }
+    .tab-management ul {
+    display: flex;
+    }
+    .tab-management ul li {
+    padding-left: 0;
+    margin-right: 10px;
+    margin-left: 0;
+    }
+    .management-team-tab {
+    padding-left: 0;
+    }
+    .clinic-detail p {
+    padding-right: 20px;
+    }
+    .rt.image, .lf.image {
+    padding: 0;
+    }
+    .about .info .text {
+    text-align: left;
+    margin-right: 5px;
+    margin-top: 15px;
+
+    }
+    .reset-padding {
+    padding: 0;
+    }
+    .wrap-sp {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    }
+    .clinic-detail-column.lf {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    }
+    .expand-content.home-content ul li {
+    padding-right: 20px;
+    }
+    .lf.lf-practicesolution {
+    margin-top: 0;
+    }
+    .about .lf.lf-practicesolution .text {
+    margin-right: 5px;
+    margin-bottom: 20px;
+    }
+    .rt {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .rt-diagnostics {
+    margin-top: 10px;
+    }
+    .about .info .text.home-content.diagnostics {
+    margin-right: 0px;
+    }
+    .clinic-row {
+    margin-top: 75px;
+    }
+    .clinic-expand-detail.home-content ul li {
+    padding-right: 20px;
+    }
+    .about .info .title h1 {
+    font-size: 26px;
+    }
+    .about .info .text {
+    font-size: 14px;
+    }
+    .clinic-detail .title h1.clinic-expand, .clinic-detail-column .title h1.clinic-expand {
+    font-size: 16px;
+    }
+    .partnership-middle .clinic-detail {
+    padding-right: 0;
+    }
+    .contact-form .contact-detail {
+    text-align: center;
+    margin-bottom: 15px;
+    }
+    .contact-form .wrap-container {
+    padding-right: 20px;
+    padding-left: 20px;
+    }
+    .contact-form .sub-title {
+    margin-bottom: 10px;
+    text-align: center
+    }
+    .contact-form .btn {
+    width: 100%;
+    }
+    .about .info .product-image img {
+    margin-top: 20px;
+    max-height: 300px;
+    }
+    .lf.tinctures, .lf.salve_stick, .lf.gel_capsules {
+    padding-left: 0;
+    padding-right: 0;
+    }
+    .about .product-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    }
+    .about .product-text h1 {
+    font-size: 26px;
+    }
+    select.form-control {
+    font-size: 10px;
+    overflow-wrap: break-word;
+    }
+    .logo-new {
+    margin-top: 15px;
+    }
+    .logo-new img {
+    max-width: 200px;
+    }
+    .about .info .title h1.home-title {
+    font-size: 26px;
+    }
+    .clinic-detail .small-title h1.clinic-expand, .clinic-detail-column .small-title h1.clinic-expand {
+    font-size: 14px;
+    }
+    .clinic-expand-detail.small-title ul li, .clinic-expand-detail.small-title ul li {
+    font-size: 14px;
+    }
+    .expand-content.home-content h2, .expand-content.home-content ul li, .expand-content.home-content ol li {
+    font-size: 14px;
+    }
+    .clinic-expand-detail p, .contact-form .sub-title, .contact-form p, .contact-form .sub-title, .contact-form p a {
+    font-size: 14px;
+    }
+    .text-temp h3 {
+    font-size: 20px;
+    }
+    .text-temp h4 {
+    font-size: 14px;
+    }
+    .management-team-tab .wrap figcaption p {
+    font-size: 11px;
+    }
+    .header-title a {
+        font-size: 11px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .header-title a i {
+        width: 25px;
+    }
+    .management-team-tab.sp .text-temp {
+        display: none !important;
+    }
+    .management-team-tab.sp figcaption {
+        opacity: 1 !important;
+        display: block !important;
+    }
+    .management-team-tab.sp figcaption.custom {
+        background: #504c83;
+        color: #fff;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .carousel-inner img.image-pc {
+        display: block;
+    }
+    .carousel-inner img.image-sp{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-inner img.image-pc {
+        display: none;
+    }
+    .carousel-inner img.image-sp{
+        display: block;
+    }
+    .home-carousel {
+        min-height: 300px;
+    }
+    .carousel-caption {
+        top: 20%;
+        right: 10%;
+        left: 10%;
+    }
+    .home-carousel .carousel-caption h1 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .home-carousel .carousel-caption h5 {
+        font-size: 14px;
+        padding-top: 0px;
+    }
+    .home-menu {
+        width: 100%;
+    }
+    .home-menu .item-menu .child-item-menu .info .text {
+        font-size: 26px;
+    }
+    .home-menu .item-menu {
+        margin-bottom: 10px;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .lf, .product-category, .product-line .product-line-title {
+        padding-left: 20px;
+    }
+    .product .title h1 {
+        font-size: 26px;
+    }
+    .product-category {
+        padding-left: 20px !important;
+    }
+    .product-category .sub-title {
+        margin-top: 0;
+    }
+    .product .item .item-left {
+        width: 100%;
+    }
+    .product .item {
+        height: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .product .info .text {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-right: 5px;
+    }
+    .product .item .item-right {
+        width: 100%;
+    }
+    .product .item .item-info {
+        padding-right: 0;
+    }
+    .product .item .item-info .item-info-blue {
+        display: block;
+    }
+    .product .item .item-info .item-info-blue .blue-1, .product .item .item-info .item-info-blue .blue-2 {
+        width: 100%;
+    }
+    .product .item .item-info .item-info-blue .blue-2 .text {
+        font-size: 11px;
+    }
+    .product .item .item-info .item-info-text {
+        font-size: 12px;
+    }
+    .product .item .item-name {
+        font-size: 16px;
+    }
+    .product .item .item-right {
+         margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .product-category .sub-title, .product-line .product-line-title {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    #product-category {
+        font-size: 14px;
+    }
+    .logo-new img {
+        max-width: 200px;
+    }
+    .why-versea img {
+        width: 100%;
+    }
+    .product-line p, .product-line .small-title {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .product-line .small-title ul {
+        font-size: 14px;
+    }
+    .product-line .small-title h1 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
